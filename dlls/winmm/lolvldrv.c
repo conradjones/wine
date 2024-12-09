@@ -63,7 +63,7 @@ static WINE_LLTYPE llTypes[MMDRV_MAX] = {
 static BOOL drivers_loaded;
 static int MMDrvsHi;
 static WINE_MM_DRIVER	MMDrvs[8];
-static LPWINE_MLD	MM_MLDrvs[40];
+static LPWINE_MLD	MM_MLDrvs[128];
 
 static void MMDRV_Init(void);
 
